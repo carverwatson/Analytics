@@ -3,6 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carver Watson - Hockey Analytics</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 font-sans">
+    <header class="bg-blue-600 text-white py-6 text-center">
+        <h1 class="text-3xl font-bold">Hockey Analytics by Carver W. Watson</h1>
+        <p class="text-lg mt-2">Player Game Score Tracker</p>
+    </header>
+    <main class="max-w-4xl mx-auto py-8 px-4">
+        <section class="bg-white shadow-lg rounded-lg p-6">
+            <h2 class="text-2xl font-semibold mb-4">Select a Player</h2>
+            <p class="text-gray-700 mb-4">Click a player to view or input game stats and track season performance.</p>
+            <ul class="space-y-2">
+                <li><a href="player1.html" class="text-blue-600 hover:underline text-lg">Player 1 (John Doe)</a></li>
+                <li><a href="player2.html" class="text-blue-600 hover:underline text-lg">Player 2 (Jane Smith)</a></li>
+            </ul>
+        </section>
+    </main>
+    <footer class="bg-gray-800 text-white text-center py-4">
+        <p>Contact: <a href="mailto:carver.watson@gmail.com" class="hover:underline">carver.watson@gmail.com</a> | (920) 287-4014</p>
+        <p><a href="https://linkedin.com/in/carverwatson" target="_blank" class="hover:underline">LinkedIn Profile</a></p>
+    </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Player Analytics - John Doe</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
